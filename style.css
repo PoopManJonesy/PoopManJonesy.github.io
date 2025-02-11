@@ -1,0 +1,183 @@
+/* Base Styles */
+body {
+    background: url("images/web_back.jpg") fixed center/cover;
+    color: gold;
+    text-align: center;
+    text-shadow: 0 0 3px black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo Styles */
+.logo img {
+    display: block;
+    margin: 2% auto;
+    width: 80%;
+    height: auto;
+}
+
+/* Text Elements */
+.address,
+.phone-numbers,
+.service-options,
+.payment-info {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.notice {
+    font-size: 1rem;
+}
+
+/* Navigation Styles */
+.nav,
+.topnav,
+.topnav2,
+.topnav3 {
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li,
+.topnav li,
+.topnav2 li,
+.topnav3 li {
+    display: inline;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav a,
+.topnav a,
+.topnav2 a,
+.topnav3 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F7F8E0;
+    padding: 0 30px;
+    border-right: 1px solid #FABE38;
+    margin-top: 3%;
+}
+
+.nav a:hover,
+.topnav a:hover,
+.topnav2 a:hover,
+.topnav3 a:hover {
+    color: gold;
+}
+
+/* Special Navigation Items */
+.FYI_FAQ a,
+.e a,
+.fyi a,
+.location a {
+    border-right: none;
+}
+
+/* Content Sections */
+.holiday,
+.FYIh,
+.FAQh {
+    font-size: 1.2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.holiday ul,
+.FYIp ul,
+.FAQp ul {
+    text-align: left;
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.holiday li,
+.FYIp li,
+.FAQp li {
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+/* Menu Page Layout */
+.menu-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.front img,
+.back img {
+    width: 45%;
+    padding: 5px;
+}
+
+/* Map Container */
+.maps iframe {
+    border: 0;
+    margin: 2rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav a,
+    .topnav a,
+    .topnav2 a,
+    .topnav3 a {
+        padding: 0 15px;
+        font-size: 1.2rem;
+    }
+    
+    .front img,
+    .back img {
+        width: 90%;
+        float: none;
+    }
+}
+
+/* Policy List Styling */
+.policy-list {
+    list-style: disc;
+    padding-left: 2rem;
+    text-align: left;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.policy-list li {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+/* FAQ List Styling */
+.faq-list {
+    list-style: none;
+    padding-left: 0;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.faq-list li {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.question {
+    display: block;
+    font-weight: bold;
+    color: gold;
+    margin-bottom: 0.5rem;
+}
+
+.answer {
+    display: block;
+    color: #333;
+    margin-left: 1.5rem;
+}
