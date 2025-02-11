@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-    background: url("images/web_back.jpg") fixed center/cover;
+    background: red;
     color: gold;
     text-align: center;
     text-shadow: 0 0 3px black;
